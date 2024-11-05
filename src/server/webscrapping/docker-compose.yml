@@ -1,0 +1,91 @@
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    networks:
+      - broker-kafka
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    networks:
+      - broker-kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - 9092:9092
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+    ports:
+      - 19000:9000
+    environment:
+      KAFKA_BROKERCONNECT: kafka:29092
+ 
+  web-scrapping-service:
+    build: ./
+    ports:
+      - 8081:8081
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+    env_file:
+      - .env
+    environment:
+      KAFKA_BROKER: kafka:29092
+    restart: on-failure
+
+  # tag-service:
+  #   build: ./TagService/
+  #   ports:
+  #     - 7373:7373
+  #   networks:
+  #     - broker-kafka
+  #   depends_on:
+  #     - kafka
+  #   environment:
+  #     KAFKA_BROKER: kafka
+ 
+  # nlu-service:
+  #   build: ./NLUService
+  #   networks:
+  #     - broker-kafka
+  #   depends_on:
+  #     - kafka
+  #   environment:
+  #     KAFKA_BROKER: kafka:29092
+  #   restart: on-failure
+
+  # speech-service:
+  #   build: ./SpeechService
+  #   networks:
+  #     - broker-kafka
+  #   ports:
+  #     - 7070:7070
+  #   restart: on-failure
+
+  # core-service:
+  #   build: ./CoreService
+  #   ports:
+  #     - 8080:8080
+  #   networks:
+  #     - broker-kafka
+  #   depends_on:
+  #     - kafka
+      
+networks:
+  broker-kafka:
+    driver: bridge

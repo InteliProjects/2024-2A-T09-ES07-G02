@@ -1,0 +1,29 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    
+    "types": ["jest", "@testing-library/jest-dom"],
+    "jsx": "react-jsx", // Habilita suporte a JSX
+    "skipLibCheck": true,
+    "strict": true, // Habilita verificações de tipo estritas
+    "esModuleInterop": true,
+     // Para importações ES6
+      
+  },
+  "include": [
+    "src/**/*",
+    "src/@types/**/*" // Certifique-se de que a pasta esteja incluída
+  ]
+  
+}

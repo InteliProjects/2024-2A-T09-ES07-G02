@@ -1,0 +1,96 @@
+2024/09/05 17:38:28 Log file initialized
+2024/09/05 17:38:28 Starting server on port 6969
+2024/09/05 17:38:34 Received GET /tag request
+2024/09/05 17:38:34 Connecting to database: postgresql://postgres:admin123@lawhunter-db.c2jyavhpz17v.us-east-1.rds.amazonaws.com:5432/LawHunter?sslmode=require
+2024/09/05 17:38:34 Reading file content: llr.txt
+2024/09/05 17:38:34 Building tag tree from database
+2024/09/05 17:38:36 Searching for tag matches
+2024/09/05 17:38:36 Associating LRR with best matches
+2024/09/05 17:38:36 Associated LRR 1 with Firewall (isSubtag: false)
+2024/09/05 17:38:37 Associated LRR 1 with Operacional SILOC (isSubtag: false)
+2024/09/05 17:38:37 Associated LRR 1 with Operações Caixas Automáticos (isSubtag: false)
+2024/09/05 17:38:37 Associated tag: Firewall
+2024/09/05 17:38:37 Association complete. Sending response.
+2024/09/05 17:45:11 Log file initialized
+2024/09/05 17:45:31 Log file initialized
+2024/09/05 17:46:09 Log file initialized
+2024/09/05 17:46:10 Received LRR content
+2024/09/05 17:46:12 Building tree for tag: Endereços
+2024/09/05 17:46:12 Building tree for tag: Ambiente Produção
+2024/09/05 17:46:12 Building tree for tag: Arquivos Trafegados
+2024/09/05 17:46:12 Building tree for tag: Tecnologia
+2024/09/05 17:46:12 Building tree for tag: Boletos
+2024/09/05 17:46:12 Building tree for tag: Clientes SLC
+2024/09/05 17:46:12 Building tree for tag: Etapas
+2024/09/05 17:46:12 Building tree for tag: Operacional SILOC
+2024/09/05 17:46:12 Building tree for tag: Técnico SILOC
+2024/09/05 17:46:12 Building tree for tag: Domicílio RSFN
+2024/09/05 17:46:12 Building tree for tag: Modernização
+2024/09/05 17:46:12 Building tree for tag: Operações Cartões
+2024/09/05 17:46:12 Building tree for tag: Operações Caixas Automáticos
+2024/09/05 17:46:12 Building tree for tag: Produto SLC
+2024/09/05 17:46:12 Building tree for tag: Produto OT
+2024/09/05 17:46:12 Building tree for tag: Continuidade Negócios
+2024/09/05 17:46:12 Building tree for tag: Processamento Produção
+2024/09/05 17:46:12 Building tree for tag: Produtos
+2024/09/05 17:46:12 Building tree for tag: Serviços
+2024/09/05 17:46:12 Building tree for tag: Segurança
+2024/09/05 17:46:12 Building tree for tag: Firewall
+2024/09/05 17:46:12 Building tree for tag: SILOC
+2024/09/05 17:46:12 Building tree for tag: Contingência
+2024/09/05 17:46:12 Building tree for tag: SLC
+2024/09/05 17:46:12 Building tree for tag: Liquidação
+2024/09/05 17:46:12 Building tree for tag: Conectividade
+2024/09/05 17:46:12 Building tree for tag: Homologação
+2024/09/05 17:46:12 Building tree for tag: Testes
+2024/09/05 17:46:12 Adding new subtag 'Produção de Endereços' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Produção de Endereços under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Ambiente Produtivo Completo' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Ambiente Produtivo Completo under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Arquivos em Trânsito' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Arquivos em Trânsito under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Infraestrutura Tecnológica' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Infraestrutura Tecnológica under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Gestão de Boletos' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Gestão de Boletos under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'SLC para Clientes' with synonyms: []
+2024/09/05 17:46:12 Added subtag: SLC para Clientes under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Fases de Etapas' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Fases de Etapas under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'SILOC Operacional' with synonyms: []
+2024/09/05 17:46:12 Added subtag: SILOC Operacional under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'SILOC Técnico' with synonyms: []
+2024/09/05 17:46:12 Added subtag: SILOC Técnico under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Domicílios RSFN' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Domicílios RSFN under parent tag/subtag
+2024/09/05 17:46:12 Adding new subtag 'Melhorias de Modernização' with synonyms: []
+2024/09/05 17:46:12 Added subtag: Melhorias de Modernização under parent tag/subtag
+2024/09/05 17:46:12 Failed to query synonyms: pq: column "name" does not exist
+2024/09/05 17:46:57 Log file initialized
+2024/09/05 17:46:57 Starting server on port 6969
+2024/09/05 17:47:02 Received GET /tag request
+2024/09/05 17:47:02 Connecting to database: postgresql://postgres:admin123@lawhunter-db.c2jyavhpz17v.us-east-1.rds.amazonaws.com:5432/LawHunter?sslmode=require
+2024/09/05 17:47:02 Reading file content: llr.txt
+2024/09/05 17:47:02 Building tag tree from database
+2024/09/05 17:47:04 Searching for tag matches
+2024/09/05 17:47:04 Associating LRR with best matches
+2024/09/05 17:47:05 Associated LRR 1 with Boletos (isSubtag: false)
+2024/09/05 17:47:05 Associated LRR 1 with Clientes SLC (isSubtag: false)
+2024/09/05 17:47:06 Associated LRR 1 with Produto SLC (isSubtag: false)
+2024/09/05 17:47:06 Associated tag: Firewall
+2024/09/05 17:47:06 Association complete. Sending response.
+2024/09/05 17:47:25 Log file initialized
+2024/09/05 17:47:25 Starting server on port 6969
+2024/09/05 17:48:38 Log file initialized
+2024/09/05 17:48:38 Starting server on port 6969
+2024/09/05 17:48:46 Received GET /tag request
+2024/09/05 17:48:46 Connecting to database
+2024/09/05 17:48:46 Reading file content: llr.txt
+2024/09/05 17:48:46 Building tag tree from database
+2024/09/05 17:48:48 Searching for tag matches
+2024/09/05 17:48:48 Associating LRR with best matches
+2024/09/05 17:48:49 Associated LRR 1 with Tecnologia (isSubtag: false)
+2024/09/05 17:48:49 Associated LRR 1 with Clientes SLC (isSubtag: false)
+2024/09/05 17:48:49 Associated LRR 1 with Etapas (isSubtag: false)
+2024/09/05 17:48:50 Associated tag: Firewall
+2024/09/05 17:48:50 Association complete. Sending response.

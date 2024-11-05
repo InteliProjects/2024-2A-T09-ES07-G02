@@ -1,0 +1,93 @@
+INFO-NUCLEA-SLC-009-2024
+31 de julho de 2024
+
+
+Ref.: Modernização SILOC
+
+
+Prezados Senhores,
+
+
+
+Informamos que, mantendo o compromisso de melhoria contínua de nossos produtos e
+serviços, a NÚCLEA está promovendo a modernização em seus sistemas de liquidação.
+
+
+A modernização consiste no desenvolvimento e migração para uma plataforma mais
+moderna, resiliente e escalável, visando o ganho de eficiência sem alteração nos processos
+e procedimentos já estabelecidos.
+
+
+O SILOC (Sistema de Liquidação Diferida das Transferências Interbancárias de Ordens de
+Crédito), responsável pela liquidação dos Boletos de Pagamentos e das operações nos
+caixas de automáticos (produto OT), bem como pela liquidação das operações de cartões
+(produto SLC), será o primeiro sistema a ser modernizado.
+
+
+
+Abaixo, informações relevantes do processo de modernização:
+
+   1. Etapas
+      a. Desenvolvimento do SILOC na nova plataforma;
+      b. Testes em ambiente de homologação com o Mercado;
+      c. Implantação da nova versão no ambiente de produção.
+
+
+
+Todas as etapas descritas acima foram comunicadas ao BACEN e serão acompanhadas pelo
+regulador.
+
+   2. Cronograma
+O cronograma contendo as datas e o detalhamento de todo o processo de homologação e
+implantação estão descritos abaixo:
+   a. Desenvolvimento do SILOC na nova plataforma: Finalização em 30/08/2024
+   b. Início dos testes homologatórios externos: 02/09/2024
+   c. Início do ambiente em produção: 25/11/2024
+
+
+
+   3. Homologação Externa
+Com o objetivo de garantir o pleno funcionamento operacional e técnico do SILOC, a
+NÚCLEA realizará a homologação da versão modernizada com um grupo de Participantes.
+
+
+
+A homologação não será obrigatória e conta com um roteiro de testes, anexo ao e-mail de
+divulgação desse informativo, que orientará os Participantes durante todo o processo.
+
+
+
+Caso vossa Instituição queira participar do processo de homologação, pedimos que envie
+um e-mail para o endereço eletrônico do SILOC (homologacao@nuclea.com.br)
+
+
+
+Ressaltamos que, o layout de mensagens e arquivos para as Instituições participantes do
+SILOC, não sofrerão alteração. Todavia, a modernização para a nova plataforma exigirá
+adequação da conectividade (liberação de regra de firewall para novo endereço IP) para
+mensageria de cada Participante que utilize o canal MQSeries. O detalhamento da
+conectividade desse item está contido no MAPX-OP067-2017 - Manual Técnico SILOC,
+anexo ao e-mail de divulgação desse informativo.
+
+
+
+Importante salientar que o ambiente de homologação do serviço permanecerá disponível
+para todos os Participantes, independente do cronograma do projeto.
+
+
+   4. Produção
+Em momento oportuno, será divulgado aos Participantes um roteiro, contendo todo
+detalhamento dos procedimentos para ativação da nova plataforma modernizada em
+ambiente de produção.
+A equipe CdE Clientes está à disposição para esclarecimentos que se façam necessários,
+por meio do e-mail siloc@nuclea.com.br e do telefone (11) 4632-7320.
+
+
+
+Atenciosamente,
+
+
+
+Fabiana Regina Pereira Carreiro
+Gerente CdE Clientes
+

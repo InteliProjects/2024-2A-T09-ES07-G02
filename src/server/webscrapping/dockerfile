@@ -1,0 +1,24 @@
+# Build step
+FROM golang:1.23 AS builder
+WORKDIR /webscrapping
+
+# Copiar arquivos de dependência
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copiar o código-fonte
+COPY . .
+
+# Compilar para Windows
+RUN GOOS=windows GOARCH=amd64 go build -o webscrapping.exe
+
+# Executando step com Wine
+FROM scottyhardy/docker-wine:latest
+
+WORKDIR /app
+
+# Copiar o executável do build
+COPY --from=builder /webscrapping/webscrapping.exe .
+
+# Executar o aplicativo usando Wine
+CMD ["wine", "webscrapping.exe"]

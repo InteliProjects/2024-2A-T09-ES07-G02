@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\server",
+    "\\src\\server\\CoreService",
+    "\\src\\server\\CoreService\\Infra",
+    "\\src\\server\\CoreService\\Infra\\Data",
+    "\\src\\server\\CoreService\\Infra\\Data\\Repository",
+    "\\src\\server\\CoreService\\Infra\\Data\\Repository\\Repositories",
+    "\\src\\server\\CoreService\\Service",
+    "\\src\\server\\CoreService\\Service\\Interfaces"
+  ],
+  "SelectedNode": "\\src\\server\\CoreService\\Infra\\Data\\Repository\\Repositories\\LrrRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
